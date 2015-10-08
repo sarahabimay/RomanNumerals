@@ -1,17 +1,29 @@
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 public class RomansTest {
+
+    private Romans romans;
+
+    @Before
+    public void setUp() throws Exception {
+        romans = new Romans();
+    }
+
     @Test
     public void convertOne(){
-        Romans romans = new Romans();
         assertEquals("I", romans.romanise(1));
     }
 
     @Test
     public void convertTwo() {
-        Romans romans = new Romans();
         assertEquals("II", romans.romanise(2));
+    }
+
+    @Test
+    public void convertThree() {
+       assertEquals("III", romans.romanise(3));
     }
 }
