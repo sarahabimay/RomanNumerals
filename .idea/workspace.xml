@@ -26,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/src/Romans.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -35,8 +35,8 @@
       <file leaf-file-name="RomansTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/RomansTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.709282">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.73555166">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,7 +155,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RomansTest.convertThree">
+  <component name="RunManager" selected="JUnit.RomansTest">
     <configuration default="false" name="RomansTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Romans" />
@@ -165,27 +165,6 @@
       <option name="MAIN_CLASS_NAME" value="RomansTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="RomansTest.convertFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Romans" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RomansTest" />
-      <option name="METHOD_NAME" value="convertFive" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -248,6 +227,27 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RomansTest" />
       <option name="METHOD_NAME" value="convertThree" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="RomansTest.convertFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Romans" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RomansTest" />
+      <option name="METHOD_NAME" value="convertFour" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -458,18 +458,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.RomansTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RomansTest.convertFive" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RomansTest.convertOne" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RomansTest.convertTwo" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RomansTest.convertThree" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RomansTest.convertOne" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RomansTest.convertTwo" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RomansTest.convertThree" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RomansTest.convertFour" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RomansTest.convertThree" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RomansTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RomansTest.convertTwo" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RomansTest.convertOne" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RomansTest.convertFive" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RomansTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RomansTest.convertFour" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RomansTest.convertThree" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RomansTest.convertTwo" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RomansTest.convertOne" />
       </list>
     </recent_temporary>
   </component>
@@ -543,15 +543,15 @@
     <entry file="file://$PROJECT_DIR$/src/Romans.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RomansTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.709282">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.73555166">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

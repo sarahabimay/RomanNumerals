@@ -1,4 +1,5 @@
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -25,5 +26,12 @@ public class RomansTest {
     @Test
     public void convertThree() {
        assertEquals("III", romans.romanise(3));
+    }
+
+    @Test
+    @Ignore
+    public void convertFour() {
+        assertEquals("IV", romans.romanise(4));
+
     }
 }

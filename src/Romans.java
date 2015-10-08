@@ -1,12 +1,16 @@
 public class Romans {
     public String romanise(int number) {
+        String numerals = "";
 
-        if (number == 3) {
-            return "III";
+        if (number >= 3) {
+            numerals += "I";
         }
-        if (number == 2) {
-            return "II";
+        if (number >= 2) {
+            numerals += "I";
         }
-        return "I";
+        if (number >= 1) {
+            numerals += "I";
+        }
+        return numerals;
     }
 }
