@@ -29,9 +29,8 @@ public class RomansTest {
     }
 
     @Test
-    @Ignore
     public void convertFour() {
         assertEquals("IV", romans.romanise(4));
-
     }
+   
 }
