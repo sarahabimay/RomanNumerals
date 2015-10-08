@@ -1,19 +1,15 @@
 public class Romans {
+    private int values[] = {5, 4, 1};
+    private String symbols[] = {"V", "IV", "I"};
+
     public String romanise(int number) {
         String numerals = "";
-        if(number >=5){
-            numerals += "V";
-            number -=5;
+        for (int i = 0; i < values.length; i++) {
+            while (number >= values[i]) {
+                numerals += symbols[i];
+                number -= values[i];
+            }
         }
-        if(number >= 4){
-            numerals += "IV";
-            number -= 4;
-        }
-        while(number>=1){
-            numerals += "I";
-            number--;
-        }
-
         return numerals;
     }
 }
