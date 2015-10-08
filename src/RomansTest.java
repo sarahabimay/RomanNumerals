@@ -9,4 +9,9 @@ public class RomansTest {
         assertEquals("I", romans.romanise(1));
     }
 
+    @Test
+    public void convertTwo() {
+        Romans romans = new Romans();
+        assertEquals("II", romans.romanise(2));
+    }
 }
