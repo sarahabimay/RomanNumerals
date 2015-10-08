@@ -1,6 +1,6 @@
 public class Romans {
-    private int values[] = {5, 4, 1};
-    private String symbols[] = {"V", "IV", "I"};
+    private int values[] = {90, 50, 40, 10, 9, 5, 4, 1};
+    private String symbols[] = {"XC", "L", "XL", "X", "IX", "V", "IV", "I"};
 
     public String romanise(int number) {
         String numerals = "";
