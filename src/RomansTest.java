@@ -32,5 +32,9 @@ public class RomansTest {
     public void convertFour() {
         assertEquals("IV", romans.romanise(4));
     }
-   
+
+    @Test
+    public void convertFive() {
+        assertEquals("V", romans.romanise(5));
+    }
 }
