@@ -14,7 +14,7 @@ public class RomansTest {
     }
 
     @Test
-    public void convertOne(){
+    public void convertOne() {
         assertEquals("I", romans.romanise(1));
     }
 
@@ -25,7 +25,7 @@ public class RomansTest {
 
     @Test
     public void convertThree() {
-       assertEquals("III", romans.romanise(3));
+        assertEquals("III", romans.romanise(3));
     }
 
     @Test
