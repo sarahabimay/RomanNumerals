@@ -64,5 +64,34 @@ public class RomansTest {
         assertEquals("XC", romans.romanise(90));
 
     }
-    
+
+    @Test
+    public void convertHundred() {
+        assertEquals("C", romans.romanise(100));
+    }
+
+    @Test
+    public void convertFourHundred() {
+        assertEquals("CD", romans.romanise(400));
+    }
+
+    @Test
+    public void converte5Hundred() {
+        assertEquals("D", romans.romanise(500));
+    }
+
+    @Test
+    public void convert9Hundered() {
+        assertEquals("CM", romans.romanise(900));
+    }
+
+    @Test
+    public void convertThousand() {
+        assertEquals("M", romans.romanise(1000));
+    }
+
+    @Test
+    public void convertComplexNumber() {
+        assertEquals("MMMCMXCIX", romans.romanise(3999));
+    }
 }
